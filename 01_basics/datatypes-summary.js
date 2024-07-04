@@ -41,4 +41,5 @@ const myFunction() = function(){ console.log("Hello world"); }
 
 // datatype pata kaise kare?
 console.log(typeof isLoggedIn);
-//magar aise null ka pata karoge to sho hoge 'object'
+//magar aise null ka pata karoge to show hoge 'object'
+// non primitive ka karoge to object dikhayega, warna function object bhi answer likha jata jab function ka check kiya jata
