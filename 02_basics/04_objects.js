@@ -38,7 +38,41 @@ const users = [
 ]
 users[1].email
 // console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// ......destructuring.....
+const course = {
+    coursename: "js in hindi",
+    price : "999",
+    teacher : "hitesh"
+}
+// course.teacher
+// const {teacher}= course
+// console.log(teacher);
+
+// hamne teacher ki jagah ab instructor kaha usko, usi se hona ab, yahi destructure hai obj ka
+const {teacher: instructor}= course
+console.log(instructor);
+
+console.log(instructor);
+
+// .....JSON..?...APIs....
+// json is js object notation
+
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+// array m b ho skta..
+// [
+//     {},
+//     {},
+//     {}
+// ]
