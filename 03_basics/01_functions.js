@@ -28,7 +28,7 @@ console.log(number1 + number2);
 function addTwoNumbers (number1, number2){
 // let result = number1 + number2
 // return result
-return number1 + number2
+// return number1 + number2
 }
 // result ke baad kuch bhi print nhi hoga chahe koi console likho
 const result = addTwoNumbers(3, 4)
@@ -39,10 +39,38 @@ function loginUserMessage(username){
     if (username === undefined)
         //  or if (!username){
         console.log("Please enter a username");
-        return 
+        // return 
         // is return ko karne se agla return nhi ayega , tabhi likha hehehe
     }
-      return `${username} just logged in`
-}
+    //   return `${username} just logged in`
+// }
 // console.log(loginUserMessage("shaban"))
-console.log(loginUserMessage())
+// console.log(loginUserMessage())
+
+// .......functions with objects and array...
+// pata nhi hota ki kitne arguements ane wale hai to usi hisab se parameters rakhe jate hain
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+// console.log(calculateCartPrice(200, 400, 500))
+
+const user = {
+    username : "shaban",
+    price : 199
+}
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+// handleObject(user)
+handleObject({
+    username: "zaid",
+    price : "399"
+})
+
+// '''array paas karna''''
+const myNewArray = [100, 200, 500, 600]
+function returnSecondValue (getArray){
+    return getArray
+}
+// console.log(returnSecondValue(myNewArray));
