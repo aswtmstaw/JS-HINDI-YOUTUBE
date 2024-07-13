@@ -60,8 +60,10 @@ console.log(instructor);
 
 console.log(instructor);
 
-// .....JSON..?...APIs....
-// json is js object notation
+// ........APIs....
+//  apis ki value pahle exon me ati thi ab json me 
+// json is js object notation, sirf js me nhi balki poori api industry. me chlt hai
+// object diye bagair to json ho jayega aur keys bi string me deni hoti hain, pura braces me hota hai
 
 
 // {
